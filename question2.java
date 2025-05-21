@@ -1,8 +1,10 @@
 public class question2 {
     public static void main(String[] args) {
-        System.out.println("noob");
-        System.out.println("main fuction ");
-
+        int arr[]={21,3,5,6,7,};
+        System.out.print("the reverse array is :");
+        for(int i=arr.length-1;i>=0;i--){
+            System.out.print(arr[i] + " ");
+        }
 
     }
 }
