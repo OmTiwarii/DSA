@@ -1,6 +1,7 @@
 
 import java.util.Scanner;
 import java.util.Arrays;
+// Find the 'Kth' max and min element of an array
 
 public class question3 {
     public static void main(String[] args) {

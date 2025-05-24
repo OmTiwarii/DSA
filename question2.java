@@ -1,4 +1,5 @@
 public class question2 {
+    // Reverse an array in place
     public static void main(String[] args) {
         int arr[]={21,3,5,6,7,};
         System.out.print("the reverse array is :");

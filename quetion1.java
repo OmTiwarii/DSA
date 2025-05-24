@@ -1,4 +1,5 @@
 public class quetion1 {
+    //minimum and maximum element in an array
         public static void main(String[] args) {
        int arr[]={21,3,5,6,7,};
        int max=0;
