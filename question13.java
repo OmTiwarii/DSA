@@ -4,14 +4,21 @@ public class question13 {
 
         int arr[]={1,2,3,4,5};
         int sum =5;
+       
 
         for(int i=0;i<arr.length;i++){
-            int localsum=0;
-
-            for(int k=i;k<arr.length;k++){
-                localsum+=arr[k];
-                
+            
+            for(int j=i;j<arr.length;j++){
+                if(arr[i]+arr[j]==sum){
+               System.out.println("pairs are :"+ arr[i]+","+ arr[j]);     
+                }
             }
+            
+
+
+
+           
+          
         }
     }
 }
